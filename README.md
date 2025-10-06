@@ -1,5 +1,5 @@
 # Database Creation, Deletion & OEM Configuration
-**Student Name:** Mireille  
+**Student Name:**HIMBA Aimee Mireille  
 **Student ID:** 28220  
 **Date:** [06 oct 2025]
 
@@ -27,7 +27,7 @@
 - **Access URL:** http://localhost:8080/apex
 - **Username:** mireille_plsqlauca_28220
 - **Status:** Configured and accessible
-- 
+- ![screenshoot](https://raw.githubusercontent.com/mileycyiza-droid/pdb_lab_oracle/6ceea3f7d615990f586e96d81257a5a54bf80fac/104.jpg)
 
 ## Screenshots Included:
 1. PDB Creation Success
@@ -35,6 +35,18 @@
 3. PDB Deletion Success  
 4. Single PDB Verification
 5. OEM/APEX Dashboard with Username
+Problem:
+When trying to access OEM through https://localhost:5500/em, the browser showed
+
+“This site can’t be reached — 127.0.0.1 refused to connect.”
+
+Cause:
+The OEM (XDB) HTTPS service was not properly configured or the port (5500) was already in conflict.
+
+Solution:
+Connected to SQL*Plus as SYSDBA and reconfigured the HTTPS port using:
+EXEC DBMS_XDB_CONFIG.SETHTTPSPORT(0);
+EXEC DBMS_XDB_CONFIG.SETHTTPSPORT(5501);
 
 ## Conclusion:
 All tasks completed successfully. The environment is ready for PL/SQL development work.# pdb_lab_oracle
