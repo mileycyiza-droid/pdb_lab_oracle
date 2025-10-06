@@ -18,6 +18,7 @@
   - Closed and dropped PDB using DROP PLUGGABLE DATABASE
   - Verified deletion
 - **Status:** Successfully completed
+- ![screenshot](https://github.com/mileycyiza-droid/pdb_lab_oracle/blob/6ceea3f7d615990f586e96d81257a5a54bf80fac/001.png?raw=true)
 
 ### Task 3: Oracle Enterprise Manager Configuration
 - **Tool Used:** Oracle APEX (Oracle Enterprise Manager alternative)
