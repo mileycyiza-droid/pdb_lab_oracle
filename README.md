@@ -49,4 +49,5 @@ EXEC DBMS_XDB_CONFIG.SETHTTPSPORT(0);
 EXEC DBMS_XDB_CONFIG.SETHTTPSPORT(5501);
 
 ## Conclusion:
-All tasks completed successfully. The environment is ready for PL/SQL development work.# pdb_lab_oracle
+
+All assignment objectives were successfully met, resulting in a fully configured Oracle database environment. The creation of the primary PDB (`mi_pdb_28220`) and demonstration of PDB lifecycle management through creation and deletion exercises provided practical experience in database administration. With Oracle APEX configured and user `mireille_plsqlauca_28220` properly authenticated, the environment is now prepared for comprehensive PL/SQL development and future database projects. This hands-on experience has established a solid foundation in Oracle database management essential for academic and professional growth.
