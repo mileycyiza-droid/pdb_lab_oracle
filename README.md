@@ -20,13 +20,14 @@
 - **Status:** Successfully completed
 - ![screenshot](https://github.com/mileycyiza-droid/pdb_lab_oracle/blob/6ceea3f7d615990f586e96d81257a5a54bf80fac/001.png?raw=true)
 - ![screenshot](https://github.com/mileycyiza-droid/pdb_lab_oracle/blob/6ceea3f7d615990f586e96d81257a5a54bf80fac/101.png?raw=true)
-- 
+- ![screenshoot](https://raw.githubusercontent.com/mileycyiza-droid/pdb_lab_oracle/6ceea3f7d615990f586e96d81257a5a54bf80fac/102.png)
 
 ### Task 3: Oracle Enterprise Manager Configuration
 - **Tool Used:** Oracle APEX (Oracle Enterprise Manager alternative)
 - **Access URL:** http://localhost:8080/apex
 - **Username:** mireille_plsqlauca_28220
 - **Status:** Configured and accessible
+- 
 
 ## Screenshots Included:
 1. PDB Creation Success
